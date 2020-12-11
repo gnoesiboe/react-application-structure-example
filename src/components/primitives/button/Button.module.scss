@@ -1,0 +1,22 @@
+.button {
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.isStylePrimary {
+    border: 2px solid #000;
+    background: #ff9900;
+}
+
+.isStyleSecondary {
+    border: 2px solid #ff0000;
+    background: #000;
+}
+
+.isLink {
+    text-decoration: none;
+
+    &:active {
+        font-weight: bold;
+    }
+}
